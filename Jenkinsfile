@@ -26,7 +26,7 @@ pipleline{
 	
 	  stage('Run Application'){
 		steps{
-			sh'java -jar target/Mavenexam122-1.0-SNAPSHOT.jar
+			sh'java -jar target/Mavenexam122-1.0-SNAPSHOT.jar'
 		}
 	  }
 	}
