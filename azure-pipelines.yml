@@ -1,0 +1,13 @@
+trigger:
+- master
+
+pool:
+  name:Default
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+- script: mvn clean package
+  displayName: 'Build with Maven'
+- script: java -jar target/Mavenexam122-1.0-SNAPSHOT.jar
+  displayName: 'Running jar' 
