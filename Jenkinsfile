@@ -2,7 +2,7 @@ pipleline{
 	agent any
 	
 	task{
-	maven:'maven'
+	maven 'maven'
 	}
 	
 	stages{
